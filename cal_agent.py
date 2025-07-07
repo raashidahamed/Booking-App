@@ -17,7 +17,7 @@ if not test_calendar_access():
 import os
 from dotenv import load_dotenv
 load_dotenv()
-api_key = ("AIzaSyDAUaDWMz4znuWoIGj-rNvRvHiBpEK9h5s")
+api_key = ("AIzaSyCvKxebO8x01Ebz9YdNG_0WgJUm1yOmA2k")
 
 extraction_llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=api_key)
 
